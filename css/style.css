@@ -1,0 +1,56 @@
+body{
+background-color: whitesmoke;
+height: 100vh;
+background-image: url("https://img.freepik.com/free-vector/road-tropical-landscape-with-palms-rocks_107791-14803.jpg?w=1480&t=st=1678091218~exp=1678091818~hmac=b53cce43863425615d0831afe504cda2ef90ef00b4cce3604e2b0966d3f34133");
+/* background-image: url("https://img.freepik.com/free-photo/small-house-built-peaceful-green-hill-high-up-mountains_181624-8241.jpg?w=1380&t=st=1678091028~exp=1678091628~hmac=c195ec485765641e8d55670703f7a4d4f8304cf04806f580f1b2e62fb7b4e5e6"); */
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.main-box{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    max-width: 500px;
+    backdrop-filter: blur(20px);
+    width: 500px;
+        padding: 25px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    min-height: auto;
+    border-radius: 10px;
+
+}
+.text-center h4{
+    font-size: 23px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.main-box .form{
+    padding: 10px;
+}
+.main-box .form .input{
+    width: 100%;
+    margin: 7px 0px;
+    padding: 11px;
+    border: none;
+    outline: none;
+
+}
+.main-box .form .btn-1{
+    width: 100%;
+    padding: 13px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: white;
+    background-color: #E8F0FE;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
